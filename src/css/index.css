@@ -10,7 +10,8 @@
 header{
     width: 100%;
     height: 70px;
-    background-color: #98F5E1;
+    background: -webkit-linear-gradient(to right, #90DBF4, #98F5E1);
+	background: linear-gradient(to right, #90DBF4, #98F5E1);
     color: black;
 
     position: fixed;
@@ -27,6 +28,7 @@ header{
 h1{
 
     float: left;
+    font-family: cursive;
 }
 section{
     width: 100%;
@@ -55,6 +57,7 @@ header label{
     width: 100%;
     height: 100vh;
     background-color: #98F5E1;
+    
     /* background-color: rgba(51,51,51,0.9); */
     transform: all 0.5s;
     transform: translate(-100%);
@@ -98,6 +101,7 @@ header label{
 
 /* end menu  */
 
+
 /* banner  */
 
 #banner{
@@ -116,7 +120,7 @@ header label{
     top: 87%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: #fff;
+    color: black;
 }
 
 #banner h2{
@@ -186,7 +190,9 @@ header label{
 /* papel2  */
 
 #papel2{
-    background: #98F5E1;
+
+  background: -webkit-linear-gradient(to right, #90DBF4, #e7d4c5);
+	background: linear-gradient(to right, #90DBF4, #98F5E1);
     color: black;
 }
 
