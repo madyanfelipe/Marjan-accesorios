@@ -114,6 +114,7 @@ header label{
 /* galeria  */
 
 .conten{
+    margin-top: 70px;
     width: 100%;
     background-color: #FDE4CF;
     display: flex;
@@ -196,7 +197,30 @@ header label{
      transition: all .3s;
  }
 
+ /* end galeria  */
+
+
+  /* video */
+ .main{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    display: block;
+ }
+
+ h1{
+    text-align: center;
+ }
+
+ video{
+    width: 400px;
+    height: 400px;
+ }
+
+ .main video{
+
+ }
 
 
 
-/* end galeria  */
+

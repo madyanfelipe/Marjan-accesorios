@@ -160,7 +160,7 @@ header label{
 }
 @media (min-width:1024px) {
   #banner img{
-   margin-top: -200px;
+   margin-top: -200px; 
   }
 }
 
@@ -182,6 +182,7 @@ body {
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
 
 .contenido-principal {
+  margin-top: 70px;
 	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
@@ -197,14 +198,31 @@ body {
 .contenido-principal__contenedor {
 	width: 50%;
 }
+h1{
+  text-align: center;
+  font-size: 28px;
+}
+
+h2{
+  text-align: center;
+  font-size: 28px;
+}
+
+p{
+  text-align: center;
+  line-height: 30px;
+	color: goldenrod;
+}
 
 .contenido-principal__titulo {
 	font-weight: normal;
+  text-align: center;
 	font-size: 28px;
 }
 
 .contenido-principal__resumen {
 	font-family: 'Open Sans', sans-serif;
+  text-align: center;
 	line-height: 30px;
 	color: #CFCFCF;
 }
