@@ -165,18 +165,23 @@ header label{
 }
 
 body {
-	background: #1D1D1F;
-	color: #fff;
+	/* background: #1D1D1F;
+	color: #fff; */
 	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
+  background-color: pink;
+  /* position: relative;
+  padding-bottom: 1em; */
 }
 
 .contenedor {
 	max-width: 1200px;
 	width: 90%;
 	margin: auto;
+  
+  
 }
 
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
@@ -186,6 +191,7 @@ body {
 	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
+  background-color: pink;
 }
 
 .contenido-principal__imagen {
@@ -193,6 +199,7 @@ body {
 	margin-right: 20px;
 	width: 50%;
 	max-width: 550px;
+  position: relative;
 }
 
 .contenido-principal__contenedor {
@@ -234,6 +241,7 @@ p{
 	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
+
 }
 
 .contenido-principal__imagen {
@@ -241,6 +249,7 @@ p{
 	margin-right: 20px;
 	width: 50%;
 	max-width: 550px;
+  
 }
 
 .contenido-principal__contenedor {
@@ -331,3 +340,74 @@ p{
 	}
 }
 /* end carousel  */
+
+/* footer  */
+
+.footer{
+  padding: 40px;
+  background-color: #FFCFD2;
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  /* position:absolute;
+  bottom: 0;*/
+  width: 100%; 
+}
+
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d;
+}
+
+.footer .social a{
+  font-size: 24px;
+  color: indianred;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 8px;
+  
+}
+
+.footer .social a:hover{
+  opacity: 0.9;
+}
+
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+.footer ul a{
+ 
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a{
+  opacity: 1;
+}
+
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+}
+/* end footer  */
